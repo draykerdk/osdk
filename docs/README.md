@@ -1,12 +1,25 @@
-# OSDK docs 
-[Português](./README.PT.md) | [Español](./README.ES.md) | English
+OSDK is proposed as a universal coupler: the layer that connects devices to the Drayker network and gives things instant access to applications.
 
+## Role in the system
 
+If [Dk Network](https://dknetwork.drayker.org) is the network, OSDK is how something that is not a computer gets onto it. The point of a universal coupler is that a device should not need a bespoke integration, a vendor SDK or a gateway product to participate — it needs one way in.
 
+It sits alongside the other [Dk](https://dk.drayker.org) components and depends on the same requirements: modular protocol, separation of layers, fault tolerance, and compatibility with [Living Cryptography](https://lc.drayker.org).
 
-Docs OSDK 
+## State of this documentation
 
-All proposed resolutions presented here are solutions to the requirements of Dk and Drayker platform and system, only those requirements are final. These motions for resolutions illustrate what should be done, but the definitive architecture will be structured around optimal solutions that are proposed and developed with metaprogramming intelligent algorithms and research organized through DFMP and other methods.
+A single sentence of intent. There is no specification of what the coupler couples, which classes of device are in scope, or what "instant application to things" means concretely.
 
+All proposed resolutions presented here are solutions to the requirements of Dk and the Drayker platform, and only those requirements are final; the definitive architecture is expected to come from research organized through [DFMP](https://dfmp.drayker.org).
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+This layer is also not currently referenced from the [ecosystem map](https://drayker.org/#org/eco) — deciding whether OSDK is an active part of the architecture or a preserved early idea is itself a useful piece of work.
+
+## Contributing
+
+Open an issue. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/#org/fn).
+
+Other languages: [Português](./README.PT.md) · [Español](./README.ES.md) — both currently behind this English version.
+
+---
+
+Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
