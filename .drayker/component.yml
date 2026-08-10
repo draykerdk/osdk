@@ -1,0 +1,31 @@
+schema_version: 1
+component:
+  id: osdk
+  name: OSDK
+  layer: DEVICES
+  artifact_type: architecture
+  problem: Define a universal coupling layer through which devices could connect to the Drayker network.
+  scope:
+    - Public design intent for device-to-network coupling.
+    - Questions and boundaries needed for a future specification.
+  non_scope:
+    - A released device adapter or operating system.
+    - Guaranteed compatibility with existing hardware.
+  dependencies:
+    - dk-network
+  implementation:
+    level: none
+    scope: OSDK is currently a design intent without a published executable implementation.
+    evidence:
+      - type: document
+        ref: docs/README.md
+  risks:
+    - The universal-coupler description may overstate an early concept.
+    - Hardware and security constraints remain unspecified.
+  contributions:
+    availability: open
+    entrypoint: https://github.com/draykerdk/osdk/issues
+  source_of_truth:
+    repository: https://github.com/draykerdk/osdk
+    path: docs/README.md
+  last_reviewed: "2026-08-10"
