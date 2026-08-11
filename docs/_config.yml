@@ -25,12 +25,8 @@ defaults:
     values:
       layout: default
 
-# The mark, drawn by the shared engine in drayker-theme. Body, rings and wedge say what
-# this part does to the planet; the colour is its scope. Scope colours come from
-# DRAYKER-MARK.md §7 — never invent one. Parts with no assigned colour stay on the
-# main accent until the mark owner assigns theirs.
-dk_body: "hull"
-dk_rings: "collector"
-dk_wedge: "extract"
-dk_accent: "#FF5500"
 dk_sphere: "slate"  # metal: the coupler is hardware meeting the network
+
+# The official mark, recoloured. Geometry is fixed for every project
+# (DRAYKER-MARK.md §2.5); only the globe carries the scope.
+dk_accent: "#66D9F2"  # coupler: cold cyan, the port a device plugs into
