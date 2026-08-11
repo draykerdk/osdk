@@ -1,5 +1,11 @@
 OSDK is proposed as a universal coupler: the layer that connects devices to the Drayker network and gives things instant access to applications.
 
+## Why this exists
+
+Drayker is a way of working where people keep creating, discovering and learning while intelligence carries the rest, and what results reaches the work that produced it. OSDK is how things outside the network get to join it without each one being a special case.
+
+The argument in full is on the [manifesto](https://drayker.org/manifesto/); the [economy page](https://drayker.org/economy/) states plainly what contributing here earns and what it does not.
+
 ## Role in the system
 
 If [Dk Network](https://dknetwork.drayker.org) is the network, OSDK is how something that is not a computer gets onto it. The point of a universal coupler is that a device should not need a bespoke integration, a vendor SDK or a gateway product to participate — it needs one way in.
@@ -12,11 +18,11 @@ A single sentence of intent. There is no specification of what the coupler coupl
 
 All proposed resolutions presented here are solutions to the requirements of Dk and the Drayker platform, and only those requirements are final; the definitive architecture is expected to come from research organized through [DFMP](https://dfmp.drayker.org).
 
-This layer is also not currently referenced from the [ecosystem map](https://drayker.org/#org/eco) — deciding whether OSDK is an active part of the architecture or a preserved early idea is itself a useful piece of work.
+This layer is also not currently referenced from the [ecosystem map](https://drayker.org/eco/) — deciding whether OSDK is an active part of the architecture or a preserved early idea is itself a useful piece of work.
 
 ## Contributing
 
-Open an issue. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/#org/fn).
+Open an issue. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/fn/).
 
 Other languages: [Português](./README.PT.md) · [Español](./README.ES.md) — both currently behind this English version.
 
