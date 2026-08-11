@@ -33,3 +33,4 @@ dk_body: "hull"
 dk_rings: "collector"
 dk_wedge: "extract"
 dk_accent: "#FF5500"
+dk_sphere: "slate"  # metal: the coupler is hardware meeting the network
