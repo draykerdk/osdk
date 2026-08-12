@@ -18,7 +18,7 @@ A single sentence of intent. There is no specification of what the coupler coupl
 
 All proposed resolutions presented here are solutions to the requirements of Dk and the Drayker platform, and only those requirements are final. The definitive architecture is expected to come from research organized through [DFMP](https://dfmp.drayker.org).
 
-This layer is also not currently referenced from the [ecosystem map](https://drayker.org/eco/). Deciding whether OSDK is an active part of the architecture or a preserved early idea is itself a useful piece of work.
+The layer is referenced from the [ecosystem map](https://drayker.org/eco/) and connected in the [Dk](https://dk.drayker.org) page, but its specification is still a single sentence of intent — deciding how much of the coupler is architecture and how much is early idea is itself a useful piece of work.
 
 ## Contributing
 
