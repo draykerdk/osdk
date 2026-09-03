@@ -4,18 +4,22 @@ component:
   name: OSDK
   layer: DEVICES
   artifact_type: architecture
-  problem: Define a universal coupling layer through which devices could connect to the Drayker network.
+  problem: Define a universal coupling layer through which devices could connect to the Drayker network and run personal intelligence.
   scope:
     - Public design intent for device-to-network coupling.
+    - Public description of a future runtime on top of conventional operating systems, functioning as an integrated application or super-app environment.
+    - Public description of edge hardware coupling preserving local privacy and zero telemetry.
     - Questions and boundaries needed for a future specification.
   non_scope:
-    - A released device adapter or operating system.
-    - Guaranteed compatibility with existing hardware.
+    - A released device adapter or proprietary lock-in operating system today.
+    - Guaranteed compatibility with all existing hardware without testing.
   dependencies:
     - dk-network
+    - personal
+    - uid
   implementation:
     level: none
-    scope: OSDK is currently a design intent without a published executable implementation.
+    scope: OSDK is currently an architectural design without a published standalone OS implementation.
     evidence:
       - type: document
         ref: docs/README.md
@@ -28,4 +32,4 @@ component:
   source_of_truth:
     repository: https://github.com/draykerdk/osdk
     path: docs/README.md
-  last_reviewed: "2026-08-10"
+  last_reviewed: "2026-09-03"
