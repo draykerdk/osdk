@@ -10,7 +10,7 @@ The argument in full is on the [manifesto](https://drayker.org/manifesto/). The 
 
 If [Dk Network](https://dknetwork.drayker.org) is the network, OSDK is how something that is not a computer gets onto it. The point of a universal coupler is that a device should not need a bespoke integration, a vendor SDK or a gateway product to participate. It needs one way in.
 
-That one way in is also how the platform itself travels. The coupler is a super app in its own right: OSDK adapted to run as an app on other operating systems — multiplatform kernel coupling and virtualization — so the Drayker platform can be mounted inside other environments, including super apps (DKAPPs), instead of each one needing its own integration.
+That one way in is also how the platform itself travels. The coupler is a super app in its own right: OSDK adapted to run as an app on other operating systems — multiplatform kernel coupling and virtualization — so the Drayker platform can be mounted inside other environments, including super apps (DKApps), instead of each one needing its own integration.
 
 The rest of the ecosystem depends on this reaching far. The [Dk](https://dk.drayker.org) intelligence integrates what devices sense and do through its API; the network carries them as first-class participants; and because identity and consent are the entry conditions of everything in Drayker, a connected thing joins the same attributable system a person does. OSDK shares the same requirements as the other [Dk](https://dk.drayker.org) components: modular protocol, separation of layers, fault tolerance, and compatibility with [Living Cryptography](https://lc.drayker.org).
 
