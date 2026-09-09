@@ -4,10 +4,10 @@ component:
   name: OSDK
   layer: DEVICES
   artifact_type: architecture
-  problem: Define a universal coupling layer through which devices could connect to the Drayker network and run personal intelligence.
+  problem: Define a universal coupling layer through which devices connect to the Drayker network and run personal intelligence.
   scope:
     - Public design intent for device-to-network coupling.
-    - Public description of a future runtime on top of conventional operating systems, functioning as an integrated application or super-app environment.
+    - Public description of the runtime version running on top of conventional operating systems functioning as an integrated application / super app environment.
     - Public description of edge hardware coupling preserving local privacy and zero telemetry.
     - Questions and boundaries needed for a future specification.
   non_scope:
