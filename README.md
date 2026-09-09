@@ -1,6 +1,6 @@
 # OSDK
 
-A universal coupler: the layer proposed to connect devices to the Drayker network.
+OSDK proposes a common way for devices to describe their capabilities and connect to Drayker. It concerns the boundary between physical equipment, network services and applications. Clear device contracts would help shared intelligence reach physical activities while making the limits of each connection visible.
 
 **Documentation: [osdk.drayker.org](https://osdk.drayker.org)**. Published by GitHub Pages from [`docs/`](./docs), which is where the material for this component lives.
 

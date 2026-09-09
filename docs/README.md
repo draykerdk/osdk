@@ -1,8 +1,18 @@
-OSDK is proposed as a universal coupler: the layer that connects devices to the Drayker network and gives things instant access to applications.
+> A shared interface between devices and the Drayker network.
+
+OSDK proposes a common way for devices to describe their capabilities and connect to Drayker. It concerns the boundary between physical equipment, network services and applications.
+
+A public coupling interface would describe capabilities, authorisation and communication requirements so applications can work with compatible equipment.
+
+Clear device contracts would help shared intelligence reach physical activities while making the limits of each connection visible.
+
+## A practical example
+
+A community project could discover a permitted sensor, understand the measurements it provides and use them through a documented interface. This is an illustration of the proposed design.
 
 ## Why this exists
 
-Drayker is a way of working where people keep creating, discovering and learning while intelligence carries the rest, and what results reaches the work that produced it. OSDK is how things outside the network get to join it without each one being a special case.
+OSDK is how things outside the network get to join it without each one being a special case.
 
 The argument in full is on the [manifesto](https://drayker.org/manifesto/). The [economy page](https://drayker.org/economy/) states plainly what contributing here earns and what it does not.
 
