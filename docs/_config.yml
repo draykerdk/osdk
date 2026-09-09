@@ -13,7 +13,7 @@ plugins:
   - jekyll-sitemap
 
 title: "OSDK"
-description: "The universal coupler proposed to connect devices to the Drayker network."
+description: "A shared interface between devices and the Drayker network. OSDK proposes a common way for devices to describe their capabilities and connect to Drayker. It concerns the boundary between physical equipment, network services and applications."
 
 dk_kicker: "Device layer"
 dk_subdomain: "osdk.drayker.org"

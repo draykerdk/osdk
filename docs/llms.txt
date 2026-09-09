@@ -1,6 +1,6 @@
 # OSDK
 
-> The universal coupler proposed to connect devices to the Drayker network.
+> OSDK proposes a common way for devices to describe their capabilities and connect to Drayker. It concerns the boundary between physical equipment, network services and applications.
 
 OSDK is a public component of Drayker. Drayker is the system; Dk is its intelligence; Dk Network is its network.
 
