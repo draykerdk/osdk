@@ -36,7 +36,7 @@ The layer is referenced from the [ecosystem map](https://drayker.org/eco/) and c
 
 Open an issue. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/fn/).
 
-Other languages: [Português](./README.PT.md) · [Español](./README.ES.md). Both currently behind this English version.
+English is the canonical language of this documentation; read other languages through automatic translation. Native translation and localization are planned for the Drayker sites.
 
 ---
 
