@@ -8,10 +8,11 @@ component:
   scope:
     - Public design intent for device-to-network coupling.
     - Public description of the runtime version running on top of conventional operating systems functioning as an integrated application / super app environment.
-    - Public description of edge hardware coupling preserving local privacy and zero telemetry.
+    - Public description of edge hardware coupling in which raw personal context stays on the device and only what the person authorizes rises to the network.
+    - Public description of the native OSDK as the long-term form, running Drayker applications and isolating external programs in virtual machines.
     - Questions and boundaries needed for a future specification.
   non_scope:
-    - A released device adapter or proprietary lock-in operating system today.
+    - A released device adapter or a native OSDK today.
     - Guaranteed compatibility with all existing hardware without testing.
   dependencies:
     - dk-network
@@ -32,4 +33,4 @@ component:
   source_of_truth:
     repository: https://github.com/draykerdk/osdk
     path: docs/README.md
-  last_reviewed: "2026-10-07"
+  last_reviewed: "2026-10-19"

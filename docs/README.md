@@ -18,7 +18,7 @@ The argument in full is on the [manifesto](https://drayker.org/manifesto/). The 
 
 ## How it fits the whole
 
-If [Dk Network](https://dknetwork.drayker.org) is the network, OSDK is how something that is not a computer gets onto it. The point of a universal coupler is that a device should not need a bespoke integration, a vendor SDK or a gateway product to participate. It needs one way in.
+If [Dk Network](https://dknetwork.drayker.org) is the network, OSDK is how something that is not a computer gets onto it. The universal coupler connects every device to the network and gives things immediate application. The point of a universal coupler is that a device should not need a bespoke integration, a vendor SDK or a gateway product to participate. It needs one way in.
 
 That one way in is also how the platform itself travels. The coupler is a super app in its own right: OSDK adapted to run as an app on other operating systems — multiplatform kernel coupling and virtualization — so the Drayker platform can be mounted inside other environments, including super apps (DkApps), instead of each one needing its own integration.
 
@@ -26,11 +26,11 @@ The rest of the ecosystem depends on this reaching far. The [Dk](https://dk.dray
 
 ## State of this documentation
 
-This page describes the purpose of the coupler, a practical example, how it fits the whole and the requirements it shares with the other Dk components. There is no specification of what the coupler couples, which classes of device are in scope, or how a device describes its capabilities, authorisation and communication requirements. There is no implementation: no released device adapter and no published OS.
+This page describes the purpose of the coupler, a practical example, how it fits the whole and the requirements it shares with the other Dk components. No specification is published yet of what the coupler couples, which classes of device are in scope, or how a device describes its capabilities, authorisation and communication requirements. The founding design notes describe the coupler's two forms, its start-up on a device and its first form as a virtual machine for the DFM language; publishing them is open work. There is no implementation: no released device adapter and no published OS.
 
 All proposed resolutions presented here are solutions to the requirements of Dk and the Drayker platform, and only those requirements are final. The definitive architecture is expected to come from research organized through [DFMP](https://dfmp.drayker.org).
 
-The layer is referenced from the [ecosystem map](https://drayker.org/eco/) and connected in the [Dk](https://dk.drayker.org) page, but it has no specification yet — deciding how much of the coupler is architecture and how much is early idea is itself a useful piece of work.
+The layer is referenced from the [ecosystem map](https://drayker.org/eco/) and connected in the [Dk](https://dk.drayker.org) page, but it has no published specification yet — deciding how much of the coupler is architecture and how much is early idea is itself a useful piece of work.
 
 ## Contributing
 
