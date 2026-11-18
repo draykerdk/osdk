@@ -42,7 +42,7 @@ This page describes the purpose of the coupler and its two forms, a practical ex
 
 All proposed resolutions presented here are solutions to the requirements of Dk and the Drayker platform, and only those requirements are final. The definitive architecture is expected to come from research organized through [DFMP](https://dfmp.drayker.org).
 
-The layer is referenced from the [ecosystem map](https://drayker.org/eco/) and connected in the [Dk](https://dk.drayker.org) page, but it has no published specification yet — deciding how much of the coupler is architecture and how much is early idea is itself a useful piece of work.
+The layer is referenced from the [ecosystem map](https://drayker.org/eco/) and connected in the [Dk](https://dk.drayker.org) page, but it has no published specification yet — turning the coupler model into a testable interface specification for a first device class is a concrete first piece of work.
 
 ## Contributing
 

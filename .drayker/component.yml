@@ -25,7 +25,7 @@ component:
       - type: document
         ref: docs/README.md
   risks:
-    - The universal-coupler description may overstate an early concept.
+    - Coupling interfaces and isolation guarantees still require concrete protocol specifications and hardware testing.
     - Hardware and security constraints remain unspecified.
   contributions:
     availability: open
@@ -33,4 +33,4 @@ component:
   source_of_truth:
     repository: https://github.com/draykerdk/osdk
     path: docs/README.md
-  last_reviewed: "2026-10-19"
+  last_reviewed: "2026-11-18"
